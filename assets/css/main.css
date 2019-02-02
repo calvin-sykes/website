@@ -1,4 +1,5 @@
 @import url("font-awesome.min.css");
+@import url("../../academicons/css/academicons.min.css");
 @import url("https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
 /*
 	Read Only by HTML5 UP
@@ -1155,7 +1156,7 @@ input[type="radio"] {
     input[type="radio"] + label:before {
       -moz-osx-font-smoothing: grayscale;
       -webkit-font-smoothing: antialiased;
-      font-family: FontAwesome;
+      font-family: FontAwesome, Academicons;
       font-style: normal;
       font-weight: normal;
       text-transform: none !important; }
@@ -1232,7 +1233,7 @@ input[type="radio"] + label:before {
   .icon:before {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    font-family: FontAwesome;
+    font-family: FontAwesome, Academicons;
     font-style: normal;
     font-weight: normal;
     text-transform: none !important; }
@@ -1480,7 +1481,7 @@ ul.feature-icons {
     ul.feature-icons li:before {
       -moz-osx-font-smoothing: grayscale;
       -webkit-font-smoothing: antialiased;
-      font-family: FontAwesome;
+      font-family: FontAwesome, Academicons;
       font-style: normal;
       font-weight: normal;
       text-transform: none !important; }
@@ -1956,7 +1957,7 @@ input[type="button"],
       #titleBar .toggle:before {
         -moz-osx-font-smoothing: grayscale;
         -webkit-font-smoothing: antialiased;
-        font-family: FontAwesome;
+        font-family: FontAwesome, Academicons;
         font-style: normal;
         font-weight: normal;
         text-transform: none !important; }
