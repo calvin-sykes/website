@@ -27,7 +27,8 @@
 		weight-bold:		700
 	);
 
-// Palette.
+	// Palette.
+	$accent-main:                    #0077bb;
 	$palette: (
 		bg:					#fff,
 		fg:					#888,
@@ -40,10 +41,10 @@
 		border3-bg:			#eaeaea,
 
 		accent1: (
-			bg:			#0077bb, //4acaa8,
+			bg:			$accent-main, //4acaa8,
 			fg-bold:		#ffffff,
-			fg:			mix(#0077bb, #ffffff, 25%),
-			fg-light:		mix(#0077bb, #ffffff, 40%)
+			fg:			mix($accent-main, #ffffff, 25%),
+			fg-light:		mix($accent-main, #ffffff, 40%)
 		),
 
 		accent2: (
@@ -54,10 +55,10 @@
 		),
 
 		header: (
-			bg:			#0077bb, //#4acaa8,
+			bg:			$accent-main, //#4acaa8,
 			fg-bold:		#ffffff,
-			fg:			mix(#0077bb, #ffffff, 25%),
-			fg-light:		mix(#0077bb, #ffffff, 40%),
-			border:			mix(#0077bb, #ffffff, 90%)
+			fg:			mix($accent-main, #ffffff, 25%),
+			fg-light:		mix($accent-main, #ffffff, 40%),
+			border:			mix($accent-main, #ffffff, 90%)
 		)
 	);

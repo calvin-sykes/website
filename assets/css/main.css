@@ -68,32 +68,32 @@ input, select, textarea {
   display: -ms-flex;
   display: flex; }
   .split > * {
-    width: calc(50% - 2.5em); }
+    width: calc(50% - 2em); }
   .split > :nth-child(2n - 1) {
-    padding-right: 2.5em;
-    border-right: solid 1px #f4f4f4; }
+    padding-right: 2em;
+    border-right: solid 5px #f4f4f4; }
   .split > :nth-child(2n) {
-    padding-left: 2.5em; }
+    padding-left: 2em; }
   .split.style1 > :nth-child(2n - 1) {
-    width: calc(60% - 2.5em); }
+    width: calc(70%); }
   .split.style1 > :nth-child(2n) {
-    width: calc(40% - 2.5em); }
+    width: calc(30%); }
   @media screen and (max-width: 1680px) {
     .split > * {
-      width: calc(50% - 2em); }
+      width: calc(50% - 1.5em); }
     .split > :nth-child(2n - 1) {
-      padding-right: 2em; }
+      padding-right: 1.5em; }
     .split > :nth-child(2n) {
-      padding-left: 2em; }
+      padding-left: 1.5em; }
     .split.style1 > :nth-child(2n - 1) {
-      width: calc(66.66666% - 2em); }
+      width: calc(65%); }
     .split.style1 > :nth-child(2n) {
-      width: calc(33.33333% - 2em); } }
+      width: calc(35%); } }
   @media screen and (max-width: 1024px) {
     .split {
       display: block; }
       .split > * {
-        border-top: solid 1px #f4f4f4;
+        border-top: solid 5px #f4f4f4;
         margin: 4em 0 0 0;
         padding: 4em 0 0 0;
         width: 100% !important; }
