@@ -74,9 +74,9 @@ input, select, textarea {
   .split > :nth-child(2n) {
     padding-left: 2.5em; }
   .split.style1 > :nth-child(2n - 1) {
-    width: calc(66.66666% - 2.5em); }
+    width: calc(60% - 2.5em); }
   .split.style1 > :nth-child(2n) {
-    width: calc(33.33333% - 2.5em); }
+    width: calc(40% - 2.5em); }
   @media screen and (max-width: 1680px) {
     .split > * {
       width: calc(50% - 2em); }
