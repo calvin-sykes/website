@@ -23,8 +23,8 @@
       <nav id="nav">
 	<ul>
 	  <li><a href="#one" class="active">About</a></li>
-	  <li><a href="#two">Links</a></li>
-	  <!-- <li><a href="#three">More details</a></li> -->
+	  <li><a href="#two">Projects</a></li>
+	  <li><a href="#three">Links</a></li>
 	  <li><a href="#four">Contact</a></li>
 	</ul>
       </nav>
@@ -59,8 +59,49 @@
 	  </div>
 	</section>
 
-	<!-- Two -->
 	<section id="two">
+	  <div class="container">
+	    <h3>Projects</h3>
+	    <div class="features">
+	      <article>
+	      	<a href="#" class="image"><img src="images/img_rings.png" alt="Surface brightness map for fluorscent ring" /></a>
+		<div class="inner">
+		  <h4>Fluorescent rings around star-free dark matter haloes</h4>
+		  <p><!--Below a threshold in halo mass of \(\sim 10^{10}\,M_{\odot}\), many dark matter haloes fail to host luminous galaxies.</br>-->
+		    Between the two regimes of dark and star-forming haloes, haloes lying in a narrow mass range can remain star-free, but contain a small, dense core of neutral gas.</br>
+		    The gas in these haloes produces recombination line emission due to background UV fluorescence, which is limb-brightened around the surface of the neutral core to yield a distinctive ring-shaped morphology in projection.</br>
+		  WIth a specially-designed radiative transfer code, I determined the expected properties and abundance of these fluorescent rings, and found that their properties can provide constraints on the shape and amplitude of the UV background, the nature of dark matter, and the primordial abundance of helium.</p>
+		</div>
+	      </article>
+	      <article>
+		<a href="#" class="image"><img src="images/img_engine.jpg" alt="Projected density map from ENGInE simulations" /></a>
+		<div class="inner">
+		  <h4>ENGInE: Evolution Of Neutral Gas In EAGLE</h4>
+		  <p>I'm currently working on a series of cosmological simulations, utilising the <a href="http://icc.dur.ac.uk/Eagle/">EAGLE</a> galaxy formation model.</br>
+		    Combining a large (\(50\,\rm{Mpc}/h\)) volume with a DM (gas) mass resolution of \(1.2\times 10^6\,M_{\odot}\) (\(2.3\times 10^5\,M_{\odot}\)), these simulations represent a resolution improvement of a factor of 8 with respect to EAGLE.</br>
+		  The addition of radiative transfer post-processing will permit the dynamics and distribution of neutral hydrogen absorption feaures at \(z\sim 2-3\) to be explored in unprecdented detail.</p>
+		</div>
+	      </article>
+	      <!--<article>
+		<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
+		<div class="inner">
+		  <h4>Talks</h4>
+		  <p>Slides for talks I've given can be downloaded from here.</p>
+		</div>
+	      </article>
+	      <article>
+		<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
+		<div class="inner">
+		  <h4>Code</h4>
+		  <p>Documentation and examples for code I've worked on will be accessible here.</p>
+		</div>
+	      </article>-->
+	    </div>
+	  </div>
+	</section>
+
+	
+	<section id="three">
 	  <div class="container">
 	    <h3>Links</h3>
 	    <!-- <p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer lorem ipsum dolor sit amet.</p> -->
@@ -68,49 +109,11 @@
 	      <li class="ai-ads">You can find my publications on <a href="https://ui.adsabs.harvard.edu/search/q=orcid%3A0000-0003-3819-3023" target="_blank">ADS</a>...</li>
 	      <li class="ai-arxiv">...or <a href="https://arxiv.org/a/sykes_c_1.html" target="_blank">arXiv</a></li>
 	      <li class="fa-code">Code I've written is available on <a href="https://github.com/calvin-sykes" target="_blank" class="icon fa-github"> Github</a></li>
-	      <li class="ai-cv">I'm currently updating my CV! When it's done, a link will be available here</li>
+	      <!--<li class="ai-cv">I'm currently updating my CV! When it's done, a link will be available here</li>-->
 	    </ul>
 	  </div>
 	</section>
 
-	<!-- <\!-- Three -\-> -->
-	<!-- <section id="three"> -->
-	<!--   <div class="container"> -->
-	<!--     <h3>More details</h3> -->
-	<!--     <div class="features"> -->
-	<!--       <article> -->
-	<!--       	<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a> -->
-	<!--       	<div class="inner"> -->
-	<!--       	  <h4>Publications</h4> -->
-	<!--       	  <p>I'll be adding links to my publications here.</p> -->
-	<!--       	</div> -->
-	<!--       </article> -->
-	<!--       <article> -->
-	<!-- 	<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a> -->
-	<!-- 	<div class="inner"> -->
-	<!-- 	  <h4>Curriculum Vitae</h4> -->
-	<!-- 	  <p>I'm currently updating my CV. When it's done, a link will be available here.</p> -->
-	<!-- 	</div> -->
-	<!--       </article> -->
-	<!--       <article> -->
-	<!-- 	<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a> -->
-	<!-- 	<div class="inner"> -->
-	<!-- 	  <h4>Talks</h4> -->
-	<!-- 	  <p>Slides for talks I've given can be downloaded from here.</p> -->
-	<!-- 	</div> -->
-	<!--       </article> -->
-	<!--       <article> -->
-	<!-- 	<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a> -->
-	<!-- 	<div class="inner"> -->
-	<!-- 	  <h4>Code</h4> -->
-	<!-- 	  <p>Documentation and examples for code I've worked on will be accessible here.</p> -->
-	<!-- 	</div> -->
-	<!--       </article> -->
-	<!--     </div> -->
-	<!--   </div> -->
-	<!-- </section> -->
-
-	<!-- Four -->
 	<section id="four">
 	  <div class="container">
 	    <h3>Contact Me</h3>
@@ -119,10 +122,12 @@
 	      <div class="section">
 		<form method="post" action="https://formspree.io/calvin.v.sykes@durham.ac.uk"/>
 		<div class="row gtr-uniform">
+		  <input type="text" name="_gotcha" style="display:none" />
 		  <div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Your name" /></div>
 		  <div class="col-6 col-12-xsmall"><input type="email" name="_replyto" id="email" placeholder="Your email" /></div>
-		  <div class="col-12"><input type="text" name="subject" id="subject" placeholder="Subject" /></div>
+		  <div class="col-12"><input type="text" name="_subject" id="subject" placeholder="Subject" /></div>
 		  <div class="col-12"><textarea name="message" id="message" placeholder="Your message" rows="6"></textarea></div>
+
 		  <div class="col-12">
 		    <ul class="actions">
 		      <li><input type="submit" class="primary" value="Send Message" /></li>
@@ -150,18 +155,6 @@
 		    <h3>Phone</h3>
 		    <a href="tel:+44191 3343027">+44 (0)191 3343027</a>
 		  </li>
-		  <!-- <li> -->
-		  <!--   <h3>Social</h3> -->
-		  <!--   <ul class="icons"> -->
-		  <!--     <li><a href="https://twitter.com/musicalneutron" class="fa-twitter" target="_blank"><span class="label">Twitter</span></a></li> -->
-		  <!--     <li><a href="https://github.com/Musical-Neutron" class="fa-github" target="_blank"><span class="label">GitHub</span></a></li> -->
-		  <!--     <li><a href="https://orcid.org/0000-0002-2769-9507" target="_blank"><i class="ai ai-orcid"><span class="label">ORCiD</span></i></a></li> -->
-		  <!--     <li><a href="https://www.researcherid.com/rid/N-4274-2017" target="_blank"><i class="ai ai-researcherid"> -->
-		  <!-- 	    <span class="label">Researcher ID</span></i></a></li> -->
-		  <!--     <li><a href="https://www.researchgate.net/profile/Oliver_Newton5" target="_blank"><i class="ai ai-researchgate-square"> -->
-		  <!-- 	    <span class="label">Researchgate</span></i></a></li> -->
-		  <!--   </ul> -->
-		  <!-- </li> -->
 		</ul>
 	      </div>
 	    </div>
@@ -521,6 +514,8 @@
 <script src="assets/js/breakpoints.min.js"></script>
 <script src="assets/js/util.js"></script>
 <script src="assets/js/main.js"></script>
-
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML">
+</script>
 </body>
 </html>
