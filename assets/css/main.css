@@ -157,7 +157,7 @@ a {
   text-decoration: none; }
   a:hover {
     border-bottom-color: transparent;
-    color: #664466 !important; }
+    color: #666688 !important; }
 
 strong, b {
   font-weight: 700; }
@@ -1053,7 +1053,7 @@ header h6 + p {
   margin-top: -0.25em;
   line-height: 1.5em; }
 header.major h2 {
-  color: #664466;
+  color: #666688;
   font-size: 3.5em; }
   header.major h2 + p {
     font-size: 1.75em;
@@ -1103,7 +1103,7 @@ textarea {
   input[type="email"]:focus,
   select:focus,
   textarea:focus {
-    border-color: #664466; }
+    border-color: #666688; }
 
 select {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='%23e4e4e4' /%3E%3C/svg%3E");
@@ -1182,7 +1182,7 @@ input[type="radio"] {
     content: '\f00c'; }
   input[type="checkbox"]:focus + label:before,
   input[type="radio"]:focus + label:before {
-    border-color: #664466; }
+    border-color: #666688; }
 
 input[type="checkbox"] + label:before {
   border-radius: 5px; }
@@ -1486,7 +1486,7 @@ ul.feature-icons {
       font-weight: normal;
       text-transform: none !important; }
     ul.feature-icons li:before {
-      background: #664466;
+      background: #666688;
       border-radius: 100%;
       color: #ffffff;
       display: block;
@@ -1640,18 +1640,18 @@ input[type="button"],
   input[type="reset"].primary,
   input[type="button"].primary,
   .button.primary {
-    background-color: #664466;
+    background-color: #666688;
     color: #ffffff !important; }
     input[type="submit"].primary:hover,
     input[type="reset"].primary:hover,
     input[type="button"].primary:hover,
     .button.primary:hover {
-      background-color: #754e75; }
+      background-color: #727295; }
     input[type="submit"].primary:active,
     input[type="reset"].primary:active,
     input[type="button"].primary:active,
     .button.primary:active {
-      background-color: #573a57; }
+      background-color: #5b5b79; }
   input[type="submit"].disabled, input[type="submit"]:disabled,
   input[type="reset"].disabled,
   input[type="reset"]:disabled,
@@ -1962,7 +1962,7 @@ input[type="button"],
         font-weight: normal;
         text-transform: none !important; }
       #titleBar .toggle:before {
-        background: #664466;
+        background: #666688;
         color: #ffffff;
         content: '\f0c9';
         display: block;
