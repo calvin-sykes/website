@@ -28,7 +28,7 @@
 	);
 
 	// Palette.
-	$accent-main:                    #0077bb;
+	$accent-main:                    #664466; //#0077bb;
 	$palette: (
 		bg:					#fff,
 		fg:					#888,
@@ -41,8 +41,8 @@
 		border3-bg:			#eaeaea,
 
 		accent1: (
-			bg:			$accent-main, //4acaa8,
-			fg-bold:		#ffffff,
+		    bg:			#666688, //$accent-main, //4acaa8,
+		    fg-bold:		#ffffff,
 			fg:			mix($accent-main, #ffffff, 25%),
 			fg-light:		mix($accent-main, #ffffff, 40%)
 		),
