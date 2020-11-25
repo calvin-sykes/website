@@ -4,8 +4,12 @@
 @import 'libs/vendor';
 @import 'libs/breakpoints';
 @import 'libs/html-grid';
-@import url('font-awesome.min.css');
-@import url('../../academicons/css/academicons.min.css');
+$fa-font-path: "../fontawesome-free-5.15.1-web/webfonts/";
+@import '../fontawesome-free-5.15.1-web/scss/fontawesome.scss';
+@import '../fontawesome-free-5.15.1-web/scss/solid.scss';
+
+//@import url('../fontawesome-free-5.15.1-web/css/fontawesome.min.css');
+@import url('../academicons/css/academicons.min.css');
 @import url("https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
 
 /*
